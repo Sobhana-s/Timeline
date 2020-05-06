@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mithileysh - Interactive Infographic about Covid19">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel='stylesheet' href='./style.css'> 
+    <title>COVID 2019 Timeline</title>
+</head>
+<body>
+    <div class='container'>
+        <nav>
+            <div class='title'><span>COVID 2019 <span>Timeline</span></div>
+            <div class='clock'>
+                <div class='visitor'>
+                    <h5>TOTAL VISITOR</h5>
+                    <p>578</p>
+                </div>
+                <div class='update'>
+                    <h5>LAST UPDATED</h5>
+                    <div class='updateDate'></div>
+                    <div class='updateClock'></div>
+                </div>
+            </div>
+        </nav>
+        <div class='summary'>
+            <div class='me'>
+                <span style="color: black"><b>Contributed by: Mithileysh</b></span><br/>
+                <a style="cursor:pointer;color:gray;" href="https://www.linkedin.com/in/mithileysh"><i class="fa fa-linkedin"></i></a>  @mithileysh<br/>
+                <a style="cursor:pointer;color:gray;" href="https://github.com/Mithileysh/"><i class="fa fa-github"></i></a>  @mithileysh<br/>
+            </div>
+            <div class='overall'>
+                    <div class='global' style="text-align: center;">🌐 World Wide</div>
+                    <div style="display: flex;justify-content: space-evenly;"><span class='case'></span> <span class='death'></span> <span class='recover'></span></div>
+            </div>
+        </div>
+        <div class='info'>
+            <div class='countries'></div>
+            <div class='row'>
+                <div class='buttons'>
+                    <button id="play" class="btn btn-primary">Pause</button>
+                    <button id="reset" class="btn btn-primary">Reset</button>
+                    <div id="slider-div">
+                        <label>Date: <span id="dateLabel1">1/22/20</span> - <span id="dateLabel2">03/31/2020</span></label>
+                        <div id="date-slider">
+                            <input class='slider' min='0' value='0' type='range'/>
+                            <span class='box'></span>
+                        </div>
+                    </div>
+                </div>
+                <div id='chart-area'></div>
+            </div>
+        </div>
+    </div>
+</body>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
+<script src="https://unpkg.com/topojson-client@3"></script>
+<script src='./data.js'></script>
+</html>
