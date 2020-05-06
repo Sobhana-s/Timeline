@@ -1,4 +1,6 @@
-# Covid19/Pandemic20 (https://s3.amazonaws.com/covid20.today/index.html)
+# COVID 2019 Timeline 
+
+Demo Link: https://mithileysh.github.io/COVID2019-Timeline/
 
 ![](https://user-images.githubusercontent.com/45322680/78461416-ab570400-7696-11ea-95f5-c8b06b2395a4.gif)
 
@@ -15,6 +17,6 @@ I want users to be active participants of the timeline; thus, users are able to
 
 Also, the data is fetched periodically every 10 - 15 minutes and updated automatically.
 
-I hope you like my first opensource project and I really appreciate for all Health professionals and anyone who is at the front of the line.
+
 
 
