@@ -233,7 +233,7 @@ async function getAll() {
 
 
 
-async function getCountries() {
+async function  getCountries() {
     let countries = await axios.get(`https://corona.lmao.ninja/v2/countries`)
                         .then(response => {
                             return response.data

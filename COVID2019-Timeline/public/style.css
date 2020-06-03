@@ -13,7 +13,7 @@ nav {
 h5 {
     margin: 0;
     text-align: center;
-    border-bottom: 3px solid rgb(109, 105, 105);
+    border-bottom: 3px solid rgb(223, 12, 12);
 }
 h2 {
     margin: 0;
@@ -22,31 +22,32 @@ h2 {
 
 .title {
     margin-left: 10px;
-    font-size: 80px;
-    color: rgb(154, 159, 163);
-    text-shadow: 6px 6px 0px rgba(214, 208, 208, 0.2);
+    font-size: 50px;
+    color: rgb(224, 77, 18);
+    text-shadow: 6px 6px 0px rgba(126, 5, 5, 0.2);
 }
 .title span {
-    font-size: 80px;
-    color: rgb(154, 159, 163);
-    text-shadow: 6px 6px 0px rgba(214, 208, 208, 0.2);
+    font-size: 50px;
+    color: rgb(250, 101, 15);
+    text-shadow: 6px 6px 0px rgba(172, 10, 10, 0.2);
 }
 
 .clock {
     display: flex;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
-    margin: 5px;
+    margin: 10px;
+    color: black;
 }
 .update{
     width: 150px;
     height: 80px;
-    color: rgb(154, 159, 163);
+    color: rgb(240, 207, 21);
 }
 .visitor{
     width: 150px;
     height: 80px;
-    color: rgb(154, 159, 163) !important;
+    color: rgb(240, 207, 21) !important;
     margin-right: 10px !important;
 }
 .visitor p {
@@ -88,26 +89,26 @@ h2 {
 
 /* D3 */
 .map {
-    fill: #ccc;
-    stroke: #fff;
-    stroke-width: .5px;
+    fill:rgb(7, 6, 6);
+    stroke:rgb(27, 182, 221);
+    stroke-width: 1px;
     stroke-linejoin: round;
   }
   
 .legendV{
-    fill: rgb(198, 198, 236);
+    fill: rgb(5, 5, 158);
     stroke: black;
 }
 
 .time {
-    fill: rgb(68, 68, 173);
+    fill: rgb(18, 168, 173);
     stroke: black;
 }
 .buttons {
     display: flex;
     justify-content: space-evenly;
     height: 50px;
-    color: rgb(12, 83, 189);
+    color: rgb(20, 87, 187);
     font-weight: 900;
 }
 .buttons span{
@@ -125,7 +126,7 @@ button {
     width: 60px;
     border-radius: 10px;
     outline: none;
-    background-color: rgb(144, 182, 241);
+    background-color: rgb(20, 87, 187);
     color: white;
     padding: 3px;
     font-size: 15px;
@@ -136,8 +137,33 @@ button {
     margin-top: 3px;
     width: 300px;
     text-align: center;
+    color: black;
 }
+ #search {
+    border-radius: 30px;
+    border: thick solid rgb(0, 255, 213);
+    height: 25px;
+}
+input[type=text] { 
+    width: 30%; 
+    -webkit-transition: width 0.15s ease-in-out; 
+    transition: width 0.15s ease-in-out; 
+ } 
 
+ /* When the input field gets focus, 
+      change its width to 100% */
+ input[type=text]:focus { 
+   width: 50%; 
+ } 
+
+#list{ 
+  font-size:  1.5em; 
+  margin-left: 90px; 
+ } 
+
+.countries{ 
+ display: list-item;     
+}  
 .slider {
     width: 100%;
 }
@@ -167,7 +193,7 @@ input[type=range] {
     width: 25px;
     height: 25px;
     border-radius: 50%; 
-    background: rgb(144, 182, 241);
+    background: rgb(0,255,213);
     cursor: pointer;
   }
   
@@ -175,7 +201,7 @@ input[type=range] {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: rgb(144, 182, 241);
+    background: rgb(0,255,213);
     cursor: pointer;
   }
 @media screen and (max-width: 940px) {
