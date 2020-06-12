@@ -1,6 +1,6 @@
 # COVID 2019 Timeline 
 
-Demo Link: https://mithileysh.github.io/COVID2019-Timeline/public
+Demo Link: sobhanatimeline/Timeline/COVID2019-Timeline/public/index.html
 
 ![](https://user-images.githubusercontent.com/45322680/78461416-ab570400-7696-11ea-95f5-c8b06b2395a4.gif)
 
