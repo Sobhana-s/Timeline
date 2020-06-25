@@ -2,7 +2,6 @@
 
 
 
-![](https://user-images.githubusercontent.com/45322680/78461416-ab570400-7696-11ea-95f5-c8b06b2395a4.gif)
 
 # Overview
 
