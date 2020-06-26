@@ -15,6 +15,10 @@ I want users to be active participants of the timeline; thus, users are able to
 - see the detailed information about the certain country by clicking on the map
 
 Also, the data is fetched periodically every 10 - 15 minutes and updated automatically.
+We integrated many APIs to Build this project 
+
+[![Live Demo](https://p.kindpng.com/picc/s/387-3871339_graphic-design-hd-png-download.png)](https://balaji-canada.github.io/)
+
 
 
 
